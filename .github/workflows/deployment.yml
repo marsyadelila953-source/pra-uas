@@ -29,5 +29,3 @@ jobs:
 
       - name: Remove Unused Images
         run: docker image prune -f
-      - name: Start Container
-        run: docker compose up -d
